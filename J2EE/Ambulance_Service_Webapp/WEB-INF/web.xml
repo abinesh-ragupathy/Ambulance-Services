@@ -1,0 +1,85 @@
+<web-app>
+
+	<display-name>
+		Hospital Creation
+	</display-name>
+	
+		<servlet>
+		<servlet-name>AndroidLogin</servlet-name>
+		<servlet-class>com.dev.android.AndroidLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidLogin</servlet-name>
+		<url-pattern>/AndroidLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>ChangeStudentPassword</servlet-name>
+		<servlet-class>com.dev.android.ChangeStudentPassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeStudentPassword</servlet-name>
+		<url-pattern>/ChangeStudentPassword</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>GetNearPoliceStation</servlet-name>
+		<servlet-class>com.dev.android.GetNearPoliceStation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetNearPoliceStation</servlet-name>
+		<url-pattern>/GetNearPoliceStation</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>GetNearHospitals</servlet-name>
+		<servlet-class>com.dev.android.GetNearHospitals</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetNearHospitals</servlet-name>
+		<url-pattern>/GetNearHospitals</url-pattern>
+	</servlet-mapping>
+	
+	
+	<!-- Admin Registration Info -->
+
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.dev.admin.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/AdminLogin</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>HospitalCreation</servlet-name>
+		<servlet-class>com.dev.admin.HospitalCreation</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HospitalCreation</servlet-name>
+		<url-pattern>/HospitalCreation</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>Ambulance</servlet-name>
+		<servlet-class>com.dev.admin.Ambulance</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Ambulance</servlet-name>
+		<url-pattern>/Ambulance</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<servlet-name>GetNeiburGPSDevices</servlet-name>
+		<servlet-class>com.dev.android.GetNeiburGPSDevices</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GetNeiburGPSDevices</servlet-name>
+		<url-pattern>/GetNeiburGPSDevices</url-pattern>
+	</servlet-mapping>
+</web-app>	

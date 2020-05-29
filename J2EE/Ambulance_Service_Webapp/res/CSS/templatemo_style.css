@@ -1,0 +1,54 @@
+/*-----------------------------------------------------------------------------------*/
+/*	GENERAL
+/*-----------------------------------------------------------------------------------*/
+
+input::-moz-focus-inner { border: 0; }
+
+input.mainBtn { background-color: #DB7093; color: white; border: 0; outline: 0; margin-top: 20px; padding: 7px 12px; text-transform: uppercase; cursor: pointer;}
+
+
+/*------------------------------------------------------
+	About Form Fields Styling 
+--------------------------------------------------------*/
+form input[type="text"],
+form input[type="password"]
+{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+	border: 1px solid #DB7093;
+/*	color: #777; */
+    color : #2BF;
+	font: 13px Helvetica, Arial, sans-serif;
+	margin: 0 0 10px;
+	padding: 10px 10px 10px 10px;
+	
+	width: 200px;
+	
+}
+form input[type="text"]:focus,
+form input[type="password"]:focus
+{
+	-webkit-box-shadow: 0 0 2px #ed1c24 inset;
+	-moz-box-shadow: 0 0 2px #ed1c24 inset;
+	-ms-box-shadow: 0 0 2px #ed1c24 inset;
+	-o-box-shadow: 0 0 2px #ed1c24 inset;
+	box-shadow: 0 0 2px #ed1c24 inset;
+	
+	border: 1px solid #DB7093;
+	outline: none;
+	
+}

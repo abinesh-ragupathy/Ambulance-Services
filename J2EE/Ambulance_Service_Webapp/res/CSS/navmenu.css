@@ -1,0 +1,208 @@
+html{background: #D4D3D9;}
+*
+{
+	/* A universal CSS reset */
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	font-size:14px;
+	color:#666;
+	background:#111 no-repeat;
+	
+	/* CSS3 Radial Gradients */
+	background-image:-moz-radial-gradient(center -100px 45deg, circle farthest-corner, #444 150px, #111 300px);
+	background-image:-webkit-gradient(radial, 50% 0, 150, 50% 0, 300, from(#444), to(#111));
+	
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+div.Content{ border:5px solid  #ffffff;margin: 60px 6px 0 50px;width:921px;height:590px;left:25px;}
+
+#navigationMenu li
+{
+	list-style:none;
+	height:45px;
+	width:45px;
+	padding:2px;
+}
+
+#navigationMenu span
+{
+	/* Container properties */
+	width:0;
+	left:45px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+
+	/* Text properties */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:45px;
+	
+	/* CSS3 Transition: */
+	-webkit-transition: 0.25s;
+	
+	/* Future proofing (these do not work yet): */
+	-moz-transition: 0.25s;
+	transition: 0.25s;
+}
+
+#navigationMenu a
+{
+	/*
+	background:url('img/navigation.jpg') no-repeat;
+    */
+	height:45px;
+	width:45px;
+	display:block;
+	position:relative;
+}
+
+/* General hover styles */
+
+#navigationMenu a:hover span{ width:auto; padding:0 20px;overflow:visible; }
+#navigationMenu a:hover
+{
+	text-decoration:none;
+	
+	/* CSS outer glow with the box-shadow property */
+	-moz-box-shadow:0 0 5px #9ddff5;
+	-webkit-box-shadow:0 0 5px #9ddff5;
+	box-shadow:0 0 5px #9ddff5;
+}
+
+/* Home Page */
+#navigationMenu .home {	background:url('img/home.jpg');}
+#navigationMenu .home span
+{
+	background-color:#7da315;
+	color:#3d4f0c;
+	text-shadow:1px 1px 0 #99bf31;
+}
+
+/* User List */
+#navigationMenu .user { background:url('img/user.jpg');}
+#navigationMenu .user span
+{
+	background-color:#1e8bb4;
+	color:#223a44;
+	text-shadow:1px 1px 0 #44a8d0;
+}
+
+/* Cloud */
+#navigationMenu .cloud { background:url('img/cloud.jpg');}
+#navigationMenu .cloud span
+{
+	background-color:#D4D3D9;
+	color:#191925;
+	text-shadow:1px 1px 0 #9A9A9F;
+}
+
+/* Building */
+#navigationMenu .building { background:url('img/building.png');}
+#navigationMenu .building span
+{
+	background-color:#54A3DC;
+	color:#55535E;
+	text-shadow:1px 1px 0 #9A9A9F;
+}
+
+/* Settings */
+#navigationMenu .settings { background:url('img/setting.jpg');}
+#navigationMenu .settings span
+{
+	background-color:#c86c1f;
+	color:#5a3517;
+	text-shadow:1px 1px 0 #d28344;
+}
+
+/* Yellow Button */
+#navigationMenu .portfolio { background:url('img/service.jpg');}
+#navigationMenu .portfolio span
+{
+	background-color:#d0a525;
+	color:#604e18;
+	text-shadow:1px 1px 0 #d8b54b;
+}
+
+/* Purple Button */
+#navigationMenu .contact {  background:url('img/contact.jpg');}
+#navigationMenu .contact span
+{
+	background-color:#af1e83;
+	color:#460f35;
+	text-shadow:1px 1px 0 #d244a6;
+}
+
+
+/* Purple Button */
+#navigationMenu .logout {  background:url('img/logout.jpg');}
+#navigationMenu .logout span
+{
+	background-color:#af1e83;
+	color:#460f35;
+	text-shadow:1px 1px 0 #99bf31;
+}
+
+
+/* The styles below are only needed for the demo page */
+
+#main
+{
+	margin:80px auto;
+	position:relative;
+	width:40px;
+}
+
+
+h1
+{
+	color:#fff;
+	font-size:30px;
+	font-weight:normal;
+	padding:60px 0 20px;
+	text-align:center;
+}
+
+h2
+{
+	font-weight:normal;
+	text-align:center;
+}
+
+h1,h2
+{
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+}
+
+a, a:visited,a:active 
+{
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+a img
+{
+	border:none;
+}
+
+p.note
+{
+	color:#707070;
+	font-size:10px;
+	text-align:center;
+	margin:50px;
+}

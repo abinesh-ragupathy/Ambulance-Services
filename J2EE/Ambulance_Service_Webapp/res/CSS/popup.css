@@ -1,0 +1,41 @@
+
+ .black_overlay
+ {
+			display: none;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			z-index:1001;
+			-moz-opacity: 0.5;
+			opacity:.50;
+			filter: alpha(opacity=50);
+}
+      
+.white_content
+ {
+		display: none;
+		position: absolute;
+		top: -40px;;
+		left: -150px;;
+		width:700px;
+		height:500px;;
+		padding: 0px;
+		order:1px solid white;
+		margin: 0 auto;
+		background: rgb(247, 247, 247);
+		border: 1px solid rgba(147, 184, 189,0.8);
+		-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+		   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+				box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+		-webkit-box-shadow: 10px;
+		-moz-border-radius: 10px;
+			 border-radius: 10px;
+			 opacity:1;
+		z-index:1002;
+		overflow: auto;
+}
+
+

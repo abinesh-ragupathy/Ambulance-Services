@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ambulanceservice.LoginPassenger" 
+    android:background="@drawable/background_image">
+
+    <TextView
+        android:id="@+id/exception"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:text="Passenge Login"
+       android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF0066" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/et_pid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exception"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="36dp"
+        android:hint="Passenger Id"
+        android:ems="10" >
+    </EditText>
+    
+    
+    <EditText
+        android:id="@+id/et_pPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_pid"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Password"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnPLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/tvRegPassenger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnPLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        android:textColor="#FF0066"
+        android:text="Create An Account"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+</RelativeLayout>
